@@ -20,6 +20,7 @@ header{
     float: left;
     color: #ffffff;
     background-color: #4aaaa5;
+    margin-left: 50px;
 }
 
 .menu{
@@ -60,6 +61,7 @@ section{
     margin-top:100px;
     margin-left: 0px;
     overflow: auto;
+   
 }
 
 a{
@@ -79,6 +81,10 @@ img{
     border-bottom: solid 2px #777777;
     margin-left: 15px;
     color: #777777;
+    -webkit-animation-name: borderc; 
+    -webkit-animation-duration: 1s; 
+    animation-name: borderc;
+    animation-duration: 1s;
 
 
 }
@@ -144,9 +150,9 @@ button{
 
 }
 .proj{
-    width: 300px;
-    height: 200px;
-    margin-left: 0px;
+    width: 250px;
+    height: 150px;
+    margin-left: 10px;
     margin-right: 20px;
 }
 
@@ -165,6 +171,18 @@ button{
     color: #4aaaa5;
   }
   
+
+
+@-webkit-keyframes borderc {
+    from {border-bottom: solid 2px #777777;}
+    to {border-bottom: solid 2px white}
+}
+
+/* Standard syntax */
+@keyframes borderc {
+    from {border-bottom: solid 2px #777777;}
+    to {border-bottom: solid 2px white}
+}
 
 
 @media screen and (max-width: 980px){
@@ -199,12 +217,6 @@ button{
     width: 100%;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
 .footer{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #666666;
@@ -219,7 +231,6 @@ header{
 }
 #firstp{
     float: left;
-
 }
 
 #thirdp{
@@ -239,4 +250,17 @@ header{
     border-color: #cccccc;
 }
 
+.formatform{
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.proj{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
 }
