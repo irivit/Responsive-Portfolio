@@ -1,0 +1,242 @@
+
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    border-color: #cccccc;
+}
+
+
+.Name{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.menu{
+    font-size: 20px;
+    float: right;
+    padding: 30px;
+
+}
+
+#index{
+    float: left;
+    margin-right: 15px;
+}
+
+.portfolioback{
+    background-color: #ffffff;
+}
+#contact{
+    float: left;
+    margin-right: 15px;
+}
+
+#portfolio{
+    float: left;
+    margin-right: 15px;
+}
+
+.container{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    border-color: #dddddd;
+    margin: 0 auto;
+
+}
+section{
+    clear: both;
+    margin-top:100px;
+    margin-left: 0px;
+    overflow: auto;
+}
+
+a{
+    color: #777777;
+}
+
+img{
+    margin: 15px 15px 15px 15px;
+    width: 230px;
+    height: 300px;
+    float: left;
+
+}
+
+.aboutme{
+    clear: both;
+    border-bottom: solid 2px #777777;
+    margin-left: 15px;
+    color: #777777;
+
+
+}
+.formatform{
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.footer{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    color: #777777;
+    border-top: solid 6px #4aaaa5 ;
+    clear: both;
+
+}
+
+.firstp{
+    float: right;
+    padding-top: 95px;
+}
+#secondp{
+    clear: both;
+    padding-bottom: 20px;
+
+}
+
+label{
+    font-size: 25px;
+    color: #777777;
+}
+
+input{
+    margin-left: 15px;
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+textarea{
+    margin-left: 15px;
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 15px;
+   
+}
+
+p{
+    padding-top: 15px;
+    color: #777777;
+}
+
+button{
+    margin-left: 15px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 15px;
+
+}
+.proj{
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.hover-outline:hover {
+    outline: 5px solid gray;
+    outline-offset: 10px;
+  }
+
+  .background-switch:hover {
+    background-color: lightblue;
+    color: white;
+    
+  }
+
+  a:hover {
+    color: #4aaaa5;
+  }
+  
+
+
+@media screen and (max-width: 980px){
+ .container{
+     width: 100%;
+ }
+
+}
+
+@media screen and (max-width: 768px){
+.container{
+    width: 100%;
+}
+
+.footer{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #666666;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    left:0;
+    margin-top: 10px;
+    text-align: center;
+    color: #777777;
+    border-top: solid 6px #4aaaa5 ;
+}
+    
+}
+
+@media screen and (max-width: 640px){
+.container{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.footer{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #666666;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    left:0;
+    margin-top: 10px;
+    text-align: center;
+    color: #777777;
+    border-top: solid 6px #4aaaa5 ;
+}
+#firstp{
+    float: left;
+
+}
+
+#thirdp{
+    float: left;
+}
+
+img{
+    float: left;
+}
+
+header{
+    position: static;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    border-color: #cccccc;
+}
+
+}
